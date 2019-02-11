@@ -8,6 +8,8 @@ void setup() {
   // Def
   pinMode(conOnOffLeft, OUTPUT);
   pinMode(conOnOffRight, OUTPUT);
+
+  Serial.begin(38400);
 }
 
 // the loop function runs over and over again forever

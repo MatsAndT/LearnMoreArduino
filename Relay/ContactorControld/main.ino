@@ -1,7 +1,7 @@
 
 /// OUTPUT
 const int conOnOffLeft = 10;        // On Re1-1 to Q1-A1
-constint conOnOffRight = 11;        // On Re1-2 to Q2-A1
+const int conOnOffRight = 11;       // On Re1-2 to Q2-A1
 
 
 /// INPUT

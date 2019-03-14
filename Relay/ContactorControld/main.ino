@@ -21,10 +21,10 @@ void setup() {
   pinMode(conOnOffRight, OUTPUT);
 
   /// INPUT
-  pinMode(leftButton, INPUT);
-  pinMode(rightButton, INPUT);
-  pinMode(emergencyStop, INPUT);
-  pinMode(motorProtection, INPUT);
+  pinMode(leftButton, INPUT_PULLUP);
+  pinMode(rightButton, INPUT_PULLUP);
+  pinMode(emergencyStop, INPUT_PULLUP);
+  pinMode(motorProtection, INPUT_PULLUP);
 
   Serial.begin(38400);
 }
